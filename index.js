@@ -2,8 +2,9 @@ var recipes = new Object ({});
 
 //const obj = {prop: 1}
 function updateObjectWithKeyAndValue(object, key, value){
-  return recipes.assign({}, obj, { [key]: value});
-  return recipes
+  return object.assign({}, obj, { [key]: value});
+  return object
+  
 
 }
 
